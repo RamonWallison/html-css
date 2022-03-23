@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="pet-dog-favicon.ico" type="image/x-icon">
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+           # = id
+           . = class
+           : = pseudoclasses
+           ::= pseudoelementos
+           > = children
+        */
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to bottom, rgb(131, 34, 139),rgb(204, 50, 218),rgb(137, 50, 218));
+            height: 630px
+        }
+        h1 {
+            background-image: linear-gradient(to left, rgb(25, 201, 98), aqua 250px);
+            width: 340px;
+            padding-left: 10px;
+            border: 3px solid rgb(7, 98, 114);
+            border-radius: 5px;
+            position: relative; left: 500px;
+        }
+        a {
+            color: blue;
+            font-weight: bold;
+            text-decoration: none;
+            
+        }
+        a:visited {
+            color: aqua;
+        }
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        a:active {
+            color: black;
+        }
+        .especial {
+            background-color: rgba(0, 128, 0, 0.705);
+        }
+        .especial::before {
+            content: '=';
+        }
+        .especial::after {
+            content: '=';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li> <a href="https://www.youtube.com/" target="_blank" rel="external">Youtube</a> </li>
+        <li> <a href="https://pt-br.facebook.com/" target="_blank" rel="external" class="especial">Facebook</a> </li>
+        <li> <a href="https://www.instagram.com/" target="_blank" rel="external">Instagram</a></li>
+    </ul>
+    
+</body>
+</html>

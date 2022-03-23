@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* Em HTML é id= Em CSS é #
+   Em HTML é class= Em CSS é .
+*/
+
+body {
+    background-color: blanchedalmond;
+}
+h1#principal {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    background-color: rgb(196, 136, 47);
+    
+}
+h1#secundario {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: rgb(87, 63, 27);
+    text-align: center;
+
+}
+h1#terciario {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 34, 2);
+    text-align: center;
+}
+h2 {
+    background-color: rgb(107, 68, 8);
+}
+h2.cap01 {
+    color: rgb(241, 48, 48);
+}
+h2.cap02 {
+    color:rgb(34, 211, 34);
+}
+h2.cap03 {
+    color: rgb(40, 147, 209);
+}
+.destaque {
+    color: white;
+    font-weight: bolder;
+    background-color:rgb(207, 10, 10);
+    padding: 2px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}

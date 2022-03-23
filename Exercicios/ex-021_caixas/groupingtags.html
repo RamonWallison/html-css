@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(223, 223, 19);
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(206, 206, 37);
+            border-radius: 5px;
+            margin-top: -32px;
+            
+        }
+        header > h1 {
+            color:rgb(0, 0, 0) ;
+            font-size: 3em;
+            padding-left: 10px;
+            padding-top: 5px;
+            
+        }
+        nav {
+            background-color: rgb(136, 136, 20);
+            height: 25px;
+            padding-top: 10px;
+            margin-top: -10px;
+            
+        }
+        nav > a {
+            padding-left: 120px;
+            margin-right: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+        nav > a:hover {
+            background-color: yellow;
+            color: black;
+            text-decoration: underline;
+        }
+        section {
+            height: 340px;
+            margin-right: 10px;
+        }
+        article {
+            width: 280px;
+            height: 130px;
+            margin-top: 8px;
+            margin-right: 10px;
+            padding-left: 10px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473);
+            border-radius: 5px 20px;
+            background-color: white;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        #diferente {
+            margin-top: -10px;
+        }
+        article > h2{
+            margin-top: 3px;
+            margin-bottom: 12px;
+            padding-top: 0px;
+            color: green;
+        }
+        article > p{
+            font-weight: normal;
+            font-size: 0.9em;
+            margin-top: -7px;
+            color: blue;
+        }
+        section > a {
+            text-decoration: none;
+        }
+        a > article:hover {
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PetDog</h1>
+        <nav>
+            <a href="#">Contatos</a>
+            <a href="#">Informações</a>
+            <a href="#">Quem Somos</a>
+            <a href="#">Agende um Serviço</a>
+            <a href="#">Localização</a>
+        </nav>
+    </header>
+    <section>
+        <a href="#"> 
+            <article>
+            <h2>Tosas</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius ducimus maiores, delectus reprehenderit magni quia, incidunt necessitatibus, corporis animi cupiditate id ipsam ipsa voluptatum dolore repudiandae enim doloribus quis in!</p> 
+            </article>
+        </a>
+        <a href="#">
+            <article id="diferente">
+            <h2>Raças</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem qui quas quos beatae labore reiciendis doloribus nostrum. Ipsa iusto molestiae vero voluptas facilis quis ipsam id, vitae hic eveniet omnis.</p>
+            </article>
+        </a>
+        <a href="#">
+            <article>
+            <h2>Acessórios</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nesciunt qui nihil est natus possimus enim eos cupiditate ullam provident tenetur, officiis temporibus officia. Ex temporibus enim illum praesentium sapiente?</p>
+            </article>
+        </a>
+        
+    </section>
+    
+</body>
+</html>

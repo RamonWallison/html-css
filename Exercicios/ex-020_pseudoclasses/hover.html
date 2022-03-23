@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <link rel="shortcut icon" href="pet-dog-favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+            text-decoration: underline;
+            background-color: black;
+        }
+        div > ul {
+            display: none;
+            text-align: center;
+        }
+        div:hover > ul {
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            background-color: rgba(194, 13, 13, 0.733);
+            border-radius: 2px;
+            border: 3px solid rgb(119, 6, 6);
+            width: 100px;
+            height: 200px;
+            text-align: center;
+            
+        }
+        div:hover {
+            color: rgb(245, 245, 247);
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        div {
+            background-color: rgba(194, 13, 13, 0.733);
+            width: 150px;
+            height: 18px;
+            border-radius: 2px;
+            border: 3px solid rgb(119, 6, 6);
+            position: relative; left: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o Mouse em Cima</p>
+    <div>
+        Passe o Mouse aqui
+        <ul>
+            <li> <a href="https://www.youtube.com/" target="_blank" rel="external">Youtube</a> </li>
+            <li> <a href="https://pt-br.facebook.com/" target="_blank" rel="external" class="especial">Facebook</a> </li>
+            <li> <a href="https://www.instagram.com/" target="_blank" rel="external">Instagram</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>

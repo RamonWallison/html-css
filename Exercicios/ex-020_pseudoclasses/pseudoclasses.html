@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClasses</title>
+    <link rel="shortcut icon" href="pet-dog-favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            background-color: brown;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            text-align: center;
+            color: rgb(253, 253, 253);
+            font-weight: bold;
+            border-radius: 5px;
+            border: 2px solid rgb(107, 6, 6);
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: bisque;
+            color: black;
+        }
+        div:hover {
+            color: bisque;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.9em;
+            height: 150px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>01
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt est odio assumenda architecto praesentium magnam? At quos dignissimos quod magnam quisquam? Rem provident minus quae totam iusto earum numquam hic.</p>
+    </div>
+    <div>02</div>
+    <div>03</div>
+    
+</body>
+</html>
