@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: aqua;
+}
+
+div.quadrado{
+    background-color: red;
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+div.retangulo{
+    background-image: url(imagens/horizontal.jpg);
+    display: inline-block;
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+#q1{
+    background-image: url(imagens/cidade.jpg);
+    background-size: 300px 300px;
+}
+#q2{
+    background-image: linear-gradient(to bottom, yellow, rgb(146, 146, 8));
+}
+#q3{
+    background-image:url(imagens/simples.jpg);
+}
