@@ -12,12 +12,16 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    min-height: 100vh;
+}
 header{
     background-color: black;
     height: 269px;
 }
 header > h1{
     color: white;
+    font-variant: small-caps;
     font-family: var(--font-header);
     font-size: 9vw;
     text-align: center;
@@ -54,8 +58,15 @@ section{
 section > p{
     padding-bottom: 2em;
 }
+
 section#img01{
     background-image: url(imagens/background001.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
@@ -70,4 +81,21 @@ section.imagem > p{
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 0px black;
+}
+footer{
+    font-family: var(--font-padrão);
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+footer a{
+    font-family: var(--font-padrão);
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
 }
